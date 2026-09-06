@@ -33,6 +33,6 @@ Durante os testes de inferência, o modelo apresentou 100% de acerto na classe d
 * **Soluções Propostas:** Para um ambiente de produção, as melhorias incluiriam a expansão do dataset, aplicação de Data Augmentation e o Fine-Tuning (descongelamento) das últimas camadas da rede base.
 * **Otimização Edge AI:** O projeto inclui o script `export_tflite.py` que converte a rede gerada para o formato `.tflite`, tornando-a apta para implantação em dispositivos de borda (Edge Computing).
 
-> **Nota:** O modelo otimizado (Edge AI) foi compactado e disponibilizado na seção "Releases" devido ao seu tamanho. [Clique aqui para baixar o ZIP](https://github.com/pedrobtt/Projeto_NeuAI/releases/download/v1.0/modelo_edge.tflite), extraia o arquivo e coloque o modelo_edge.tflite na pasta models/ para testar.
+> **Nota:** O modelo otimizado (Edge AI) foi compactado e disponibilizado na seção "Releases" devido ao seu tamanho. [Clique aqui para baixar o arquivo](https://github.com/pedrobtt/Projeto_NeuAI/releases/download/v1.0/modelo_edge.tflite), extraia o arquivo e coloque o modelo_edge.tflite na pasta models/ para testar.
 
 
