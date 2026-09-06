@@ -32,3 +32,7 @@ Durante os testes de inferência, o modelo apresentou 100% de acerto na classe d
 * **Limitação:** Isso ocorre devido ao uso de um dataset reduzido para viabilizar o processamento local e ao congelamento total da MobileNetV2.
 * **Soluções Propostas:** Para um ambiente de produção, as melhorias incluiriam a expansão do dataset, aplicação de Data Augmentation e o Fine-Tuning (descongelamento) das últimas camadas da rede base.
 * **Otimização Edge AI:** O projeto inclui o script `export_tflite.py` que converte a rede gerada para o formato `.tflite`, tornando-a apta para implantação em dispositivos de borda (Edge Computing).
+
+> **Nota:** O modelo otimizado (Edge AI) foi compactado e disponibilizado na seção "Releases" devido ao seu tamanho. [Clique aqui para baixar o ZIP](sha256:1c3094d625f0d97451d0d173e820bbdf92417e7213fe011f7aed1a51190452fb), extraia o arquivo e coloque o modelo_edge.tflite na pasta models/ para testar.
+
+
