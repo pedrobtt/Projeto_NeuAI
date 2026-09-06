@@ -25,6 +25,8 @@ Foi implementada uma rede CNN-LSTM. Utilizamos **Transfer Learning** com a rede 
 5. **Inferência (Teste Prático):**
 `python src/predict.py caminho/do/video.mp4`
 
+![Matriz de Confusão](matriz_confusao.png)
+
 **Análise de Limitações e Melhorias**
 Durante os testes de inferência, o modelo apresentou 100% de acerto na classe detectada, porém com uma margem de confiança oscilando entre 50% e 60%. 
 * **Limitação:** Isso ocorre devido ao uso de um dataset reduzido para viabilizar o processamento local e ao congelamento total da MobileNetV2.
